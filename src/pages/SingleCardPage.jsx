@@ -34,9 +34,7 @@ export default function SingleCardPage() {
                                 <li className="list-group-item">
                                     <strong>Regione:</strong> {city.admin_name || "Non disponibile"}
                                 </li>
-                                <li className="list-group-item">
-                                    <strong>Capitale:</strong> {city.capital || "No"}
-                                </li>
+
                                 <li className="list-group-item">
                                     <strong>Popolazione:</strong>{" "}
                                     {city.population ? city.population.toLocaleString() : "Non disponibile"}
