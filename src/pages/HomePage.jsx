@@ -17,10 +17,11 @@ export default function HomePage() {
             <div className="row ">
                 {cities.map((city) => {
                     return (
-                        <div className="col-sm-12 col-md-4 d-flex justify-content-center my-2" key={city.id}>
+                        <div className="col-sm-12 col-md-4 d-flex justify-content-center my-3" key={city.id}>
 
 
                             <Card
+                                id={city.id}
                                 imageUrl={city.imageUrl}
                                 altText={city.city}
                                 title={city.city}

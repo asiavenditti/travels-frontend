@@ -1,1 +1,6 @@
-@import 'bootstrap'
+@import 'bootstrap';
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.1s;
+}
